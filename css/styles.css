@@ -1,0 +1,135 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+h1 {
+  font-family: "Montserrat";
+  size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+h4 {
+  font-family: "Montserrat";
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.title-image {
+  width: 55%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+#features {
+  padding: 7% 5%;
+
+  position: relative;
+  background-color: white;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+p {
+  color: #8f8f8f;
+}
+.icon {
+  color: #ef8172;
+  margin: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 7% 7%;
+}
+.card {
+  text-align: center;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 1% 1%;
+}
+@media (max-width: 995px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+  }
+}
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 120px;
+}
+#footer {
+  text-align: center;
+  padding: 100px;
+}
+.social-icon {
+  padding: 10px;
+}
+.btn.btn-lg.btn-block.btn-outline-dark {
+  width: 100%;
+}
+.btn.btn-lg.btn-block.btn-dark {
+  width: 100%;
+}
